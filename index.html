@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Physics and Math Simulators</title>
+    <title>Scientific Simulators</title>
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -22,49 +22,21 @@
             margin: 0;
             font-size: 2.5em;
         }
-        nav {
-            display: flex;
-            justify-content: center;
-            background-color: #1c1c1c;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
-        }
-        nav a {
-            color: #e0e0e0;
-            padding: 14px 20px;
-            text-decoration: none;
-            text-align: center;
-            transition: background-color 0.3s, transform 0.3s;
-        }
-        nav a:hover {
-            background-color: #333;
-            transform: scale(1.1);
-        }
-        .hero {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 60vh;
-            background: url('https://via.placeholder.com/1920x1080') no-repeat center center/cover;
-            color: #e0e0e0;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-        }
-        .hero h2 {
-            font-size: 3em;
-        }
         .container {
             padding: 20px;
             display: flex;
-            flex-direction: column;
-            align-items: center;
+            flex-wrap: wrap;
+            justify-content: center;
         }
         .simulator {
             background-color: #1f1f1f;
-            margin: 20px;
+            margin: 10px;
             padding: 20px;
             border-radius: 8px;
-            width: 80%;
+            width: 30%;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
             transition: transform 0.3s;
+            box-sizing: border-box;
         }
         .simulator:hover {
             transform: scale(1.02);
@@ -89,30 +61,12 @@
             background-color: #45a049;
             transform: scale(1.1);
         }
-        footer {
-            background-color: #1c1c1c;
-            color: #e0e0e0;
-            text-align: center;
-            padding: 10px 0;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.4);
-        }
     </style>
 </head>
 <body>
     <header>
-        <h1>Scientific Simulations</h1>
+        <h1>Scientific Simulators</h1>
     </header>
-    <nav>
-        <a href="#sim1">Sim 1</a>
-        <a href="#sim2">Sim 2</a>
-        <a href="#sim3">Sim 3</a>
-    </nav>
-    <div class="hero">
-        <h2>Explore Science Like Never Before</h2>
-    </div>
     <div class="container">
         <div id="sim1" class="simulator">
             <h3>Simulator 1</h3>
@@ -129,9 +83,21 @@
             <p>Description placeholder for Simulator 3. Detailed info about the simulator goes here.</p>
             <a href="#" class="btn">Try Sim 3</a>
         </div>
+        <div id="sim4" class="simulator">
+            <h3>Simulator 4</h3>
+            <p>Description placeholder for Simulator 4. Detailed info about the simulator goes here.</p>
+            <a href="#" class="btn">Try Sim 4</a>
+        </div>
+        <div id="sim5" class="simulator">
+            <h3>Simulator 5</h3>
+            <p>Description placeholder for Simulator 5. Detailed info about the simulator goes here.</p>
+            <a href="#" class="btn">Try Sim 5</a>
+        </div>
+        <div id="sim6" class="simulator">
+            <h3>Simulator 6</h3>
+            <p>Description placeholder for Simulator 6. Detailed info about the simulator goes here.</p>
+            <a href="#" class="btn">Try Sim 6</a>
+        </div>
     </div>
-    <footer>
-        <p>&copy; 2024 Adham Aboota. All rights reserved.</p>
-    </footer>
 </body>
 </html>
