@@ -1,1 +1,137 @@
-testing.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Physics and Math Simulators</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #e0e0e0;
+        }
+        header {
+            background-color: #1f1f1f;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #1c1c1c;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+        }
+        nav a {
+            color: #e0e0e0;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        nav a:hover {
+            background-color: #333;
+            transform: scale(1.1);
+        }
+        .hero {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 60vh;
+            background: url('https://via.placeholder.com/1920x1080') no-repeat center center/cover;
+            color: #e0e0e0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        .hero h2 {
+            font-size: 3em;
+        }
+        .container {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .simulator {
+            background-color: #1f1f1f;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            width: 80%;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+            transition: transform 0.3s;
+        }
+        .simulator:hover {
+            transform: scale(1.02);
+        }
+        .simulator h3 {
+            margin-top: 0;
+        }
+        .simulator p {
+            margin-bottom: 0;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 10px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        .btn:hover {
+            background-color: #45a049;
+            transform: scale(1.1);
+        }
+        footer {
+            background-color: #1c1c1c;
+            color: #e0e0e0;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.4);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Scientific Simulations</h1>
+    </header>
+    <nav>
+        <a href="#sim1">Sim 1</a>
+        <a href="#sim2">Sim 2</a>
+        <a href="#sim3">Sim 3</a>
+    </nav>
+    <div class="hero">
+        <h2>Explore Science Like Never Before</h2>
+    </div>
+    <div class="container">
+        <div id="sim1" class="simulator">
+            <h3>Simulator 1</h3>
+            <p>Description placeholder for Simulator 1. Detailed info about the simulator goes here.</p>
+            <a href="#" class="btn">Try Sim 1</a>
+        </div>
+        <div id="sim2" class="simulator">
+            <h3>Simulator 2</h3>
+            <p>Description placeholder for Simulator 2. Detailed info about the simulator goes here.</p>
+            <a href="#" class="btn">Try Sim 2</a>
+        </div>
+        <div id="sim3" class="simulator">
+            <h3>Simulator 3</h3>
+            <p>Description placeholder for Simulator 3. Detailed info about the simulator goes here.</p>
+            <a href="#" class="btn">Try Sim 3</a>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Adham Aboota. All rights reserved.</p>
+    </footer>
+</body>
+</html>
